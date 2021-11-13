@@ -1,0 +1,117 @@
+#version: 2
+
+#sources:
+#  - name: adventure_works_etl
+#    description: Banco de dados de origem para o curso da Indicium - Por Claudio Mesquita (Nov/2021).
+#    tables:
+#      - name: customer
+
+version: 2
+
+sources:
+  - name: adventure_works_etl
+    description: Banco de dados de origem para o curso da Indicium - Por Claudio Mesquita (Nov/2021).
+    tables:
+      - name: customer
+        description: Esta tabela contem informacoes sobre CLIENTES da AdventureWorks.
+        columns:
+        - name: customerid
+          tests:
+            - unique
+            - not_null
+
+      - name: person
+        description: Esta tabela contem informacoes sobre PESSOAS da AdventureWorks.
+        columns:
+          - name: businessentityid
+            tests:
+             - unique
+             - not_null
+             
+      - name: salesreason
+        description: Esta tabela contem informacoes sobre MOTIVOS DE VENDA da AdventureWorks.
+        columns:
+            - name: salesreasonid
+              tests:
+               - unique
+               - not_null
+
+      - name: salesperson
+        description: Esta tabela contem informacoes sobre VENDEDORES da AdventureWorks.
+        columns:
+            - name: businessentityid
+              tests:
+               - unique
+               - not_null
+      
+      - name: e
+        description: Esta tabela contem informacoes sobre FUNCIONARIOS (Employees) da AdventureWorks.
+        columns:
+            - name: businessentityid
+              tests:
+               - unique
+               - not_null
+
+      - name: stateprovince
+        description: Esta tabela contem informacoes sobre ESTADO da AdventureWorks.
+        columns:
+            - name: stateprovinceid
+              tests:
+               - unique
+               - not_null
+
+      - name: address
+        description: Esta tabela contem informacoes sobre ENDEREÇOS da AdventureWorks.
+        columns:
+            - name: addressid
+              tests:
+               - unique
+               - not_null
+
+      - name: countryregion
+        description: Esta tabela contem informacoes sobre PAIS da AdventureWorks.
+        columns:
+            - name: countryregioncode
+              tests:
+               - unique
+               - not_null
+
+      - name: salesorderheader
+        description: Esta tabela contem informacoes sobre VENDAS da AdventureWorks. //////////xxxxxxxxxxxxxxxxx
+        columns:
+            - name: salesorderid
+              tests:
+               - unique
+               - not_null
+
+      - name: salesorderdetail
+        description: Esta tabela contem informacoes sobre DETALHES DAS VENDAS da AdventureWorks.
+        columns:
+            - name: salesorderdetailid
+              tests:
+               - unique
+               - not_null
+
+      - name: product
+        description: Esta tabela contem informacoes sobre PRODUTOS da AdventureWorks.
+        columns:
+            - name: productid
+              tests:
+               - unique
+               - not_null
+
+      - name: creditcard
+        description: Esta tabela contem informacoes sobre CARTAO DE CRÉDITO da AdventureWorks.
+        columns:
+            - name: creditcardid
+              tests:
+               - unique
+               - not_null
+
+      - name: salesorderheadersalesreason
+        description: Esta tabela contem informacoes sobre MOTIVO DA VENDA da AdventureWorks.
+        columns:
+            - name: salesreasonid
+              tests:
+               - unique
+               - not_null

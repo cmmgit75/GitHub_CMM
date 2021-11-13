@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "thematic-honor-328223",
+  "private_key_id": "b9bc417a3f2e8a2f322978e369d54daf4bd3119a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCtbz2dvpQqVMpM\n2AuaUbIggzewqXH9TOo6EUepgraqlScZc25ac81uyRZ8sg/0BDW1Op2/9as3R85R\nozzVNVmFodicA0j7M58An5LghMjWt5DoRmFYq0vpuLit1KdY5PKEvtWEJTxMGumE\n7dnjXeoP/aw/JeqcRDQ7QueGty83ti1AwhuTPAFFHMiCQKNZ9g3pWkZno/HVOQqI\nAknVLe/7DeggZiqZ08CAYC2iWON4UQosYjJnKuHgCXLUjnDNzs12F++OQist5k0i\n7RpywJQVJSXOtIdHGpw/xgSWf1bgBUev4PrL+eQHqaRRW8rvQLjZoeGFLNgh6nDs\npfw+FWaNAgMBAAECggEAP/yBnBg66986f91ZcobflBU1T61ES/K7m87SRJzgLdE3\nirFGroJ48X2pGTpMnneLJSDKII9PquaIHSB/ih3TuHS8yNqBa4RhDkbRVppGyskQ\n4lFNCvyv1jv7js6dKzPUsdsCRW3DcEShkRR7xeHZQCsUCHxBsYOMTaziZJZjCkdF\ngrN54vC3flsrhwGH/5XtCl1ipEQM7W3MaTzP/QwtRG4I6sAxM+oKMGI7kW92BYs7\nwHa5M4PJGXz5pwZn4aWI8o/xK0bweOVfcsVlPCCvkkuUt8meda/4mscas0ZVC+Gr\n4/B7LT9wyYyYlsY/8OqRWg9lUuJta5h+HTjiH4qHNQKBgQDdNv/VOs4aDHDKHpNk\nHZyG9dGgZdBTS2anNZzNm6Re9Vwq8uEt3rqN4cuXEzsPK+j2WhuoWDLlAwuOgqsy\nEK7OQXNcJ7n6ox7C1MwkQWzjPp8gXLWw8Rs2yXwmIdojWDZT/UeIOB+VIi8R0W1O\nZErzqPc5iBltEHXceJYchiCh2wKBgQDItNh9/W6mfMaHGIu573O5nvce1nEGSvHC\n0pGaD/fjEgwEQVwTrFuXlEuY1sNfrMXpv8Nh5ZTeqgr/ejHGaLRw1PEbRSiNtzJN\nj+FJhd7b0wG9CDiENDJ34yeEdMhZW6vYdanLMxBmfxouLWb00/I94hvK1Gk/3sB3\nCzOSbIMJtwKBgH0w4A3rbrJdMgOg1CcHfwr92PmeRQyuklS0yZ2upJI850FDHN6Z\nuxgKne5MqtLGNdwdWKOn7n2egI7RMlNuD4+YiNGxhdXrNMBsL2+hOx9L1EA7V3Pg\nr1cNJd5qsAnqpSxZHX9gy7bZlqvNyr9fkO9eQzNi64jGlP0FnWZdHeCbAoGBAMVq\nDF+wfbvIk0WigR08R+nWUF/GsZls8eudTpXpCvwQbj1pRHYdXGH1/X2yEK30tR67\n/iQ2u31gaDzuJjNwHbu12AnotoDeJt5fnUrCIHi8TcNvaJew98swZVhFviMWpird\nYUt7SLBoaInvIovCRU1VL90LnRKzuT/ehrWJgkJ1AoGAJl6xjAcWq8y8p9vQWsYa\nyZ8Jpd6Ltx7wCU/7OrhbBNHKxWmQg3fN7ULU3Lft19CLVIhntO0ozDO3qKanA1Cx\ngcAjFsMVS/Edh8wJGqpdtO4SUYGLkBHcKQhxULtWZBhrUMTNpOZzsFpdU9yz7A2v\nqvFbqNeJOLHpJtyGT8K1i8Q=\n-----END PRIVATE KEY-----\n",
+  "client_email": "bigquerycontaservicocmmstitch5@thematic-honor-328223.iam.gserviceaccount.com",
+  "client_id": "101312286107423879122",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bigquerycontaservicocmmstitch5%40thematic-honor-328223.iam.gserviceaccount.com"
+}
