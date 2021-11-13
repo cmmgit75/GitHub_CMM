@@ -1,0 +1,13 @@
+dbt_aw_claudio:
+  target: dev
+  outputs: 
+    dev:
+      type: bigquery
+      method: service-account
+      keyfile: C:\01_EDW\_Indicium\10_DBT\projetodbt\thematic-honor-328223-b9bc417a3f2e.json
+      project: thematic-honor-328223
+      dataset: dbt_aw_claudio
+      threads: 1
+      timeout_seconds: 300
+      location: US
+      priority: interactive
